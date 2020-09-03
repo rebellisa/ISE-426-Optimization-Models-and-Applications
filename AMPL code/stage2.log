@@ -1,0 +1,39 @@
+ampl: model stage2.mod;
+ampl: data stage2.dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 52
+2 dual simplex iterations (0 in phase I)
+ampl: display xab,xae,xaf,xbc,xce,xcf,xdb,xde,xdh,xeg,xfd,xgb,xgf,xgh,xci,xdi,xgi,xij,xjb,xjf,xjh,xjk,xck,xdk,xkl,xlb,xlf,xlh,distance;
+xab = 0
+xae = 1
+xaf = 0
+xbc = 1
+xce = 0
+xcf = 1
+xdb = 0
+xde = 0
+xdh = 0
+xeg = 1
+xfd = 1
+xgb = 0
+xgf = 0
+xgh = 0
+xci = 0
+xdi = 0
+xgi = 1
+xij = 1
+xjb = 1
+xjf = 0
+xjh = 0
+xjk = 0
+xck = 0
+xdk = 1
+xkl = 1
+xlb = 0
+xlf = 0
+xlh = 1
+distance = 52
+
+ampl: reset;
+ampl: 

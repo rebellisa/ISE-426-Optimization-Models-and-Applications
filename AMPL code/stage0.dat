@@ -1,0 +1,16 @@
+param dab:= 7;
+param dae:= 8;
+param daf:= 12;
+param dbc:= 4;
+param dce:= 8;
+param dcf:= 5;
+param dch:= 12;
+param ddb:= 5;
+param dde:= 10;
+param ddh:= 8;
+param deg:= 7;
+param dfd:= 3;
+param dgb:= 10;
+param dgf:= 8;
+param dgh:= 15;
+

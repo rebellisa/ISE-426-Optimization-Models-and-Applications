@@ -1,0 +1,45 @@
+var xab >= 0;
+var xae >= 0;
+var xaf >= 0;
+var xbc >= 0;
+var xce >= 0;
+var xcf >= 0;
+var xch >= 0;
+var xdb >= 0;
+var xde >= 0;
+var xdh >= 0;
+var xeg >= 0;
+var xfd >= 0;
+var xgb >= 0;
+var xgf >= 0;
+var xgh >= 0;
+param dab >= 0;
+param dae >= 0;
+param daf >= 0;
+param dbc >= 0;
+param dce >= 0;
+param dcf >= 0;
+param dch >= 0;
+param ddb >= 0;
+param dde >= 0;
+param ddh >= 0;
+param deg >= 0;
+param dfd >= 0;
+param dgb >= 0;
+param dgf >= 0;
+param dgh >= 0;
+minimize distance: dab*xab+dae*xae+daf*xaf+dbc*xbc+dce*xce+dcf*xcf+dch*xch+ddb*xdb+dde*xde+ddh*xdh+deg*xeg+dfd*xfd+dgb*xgb+dgf*xgf+dgh*xgh;
+cons1: xab+xae+xaf = 1;
+cons2: xdh+xch+xgh = 1;
+cons3: xab+xdb+xgb = 1;
+cons4: xae+xce+xde = 1;
+cons5: xgf+xcf+xaf = 1;
+cons6: xce+xcf+xch = 1;
+cons7: xgb+xgf+xgh = 1;
+cons8: xdb+xde+xdh = 1;
+cons9: xbc = 1;
+cons10: xeg = 1;
+cons11: xfd = 1;
+
+
+
